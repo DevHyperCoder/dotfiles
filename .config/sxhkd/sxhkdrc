@@ -26,11 +26,11 @@ super + F2
     timetable
 
 XF86AudioRaiseVolume
-  audio-control -d i -n 10
+  audio-control increase 10
 
 
 XF86AudioLowerVolume
-  audio-control -d d -n 10
+  audio-control decrease 10
 
 # Power
 super + F3
