@@ -25,9 +25,14 @@ super + F1
 super + F2
     timetable
 
+super + XF86AudioRaiseVolume
+  audio-control increase 5
+
+super + XF86AudioLowerVolume
+  audio-control decrease 5
+
 XF86AudioRaiseVolume
   audio-control increase 10
-
 
 XF86AudioLowerVolume
   audio-control decrease 10
