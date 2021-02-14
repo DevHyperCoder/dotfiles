@@ -18,14 +18,15 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #222
+background = #282a36
 background-alt = #444
 ;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
-foreground-alt = #555
-primary = #ffb52a
+foreground = #f8f82
+foreground-alt = #6272a4
+primary = #f8f8f2
 secondary = #e60053
-alert = #bd2c40
+alert = #ff5555
+underline = #50fa7b
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
@@ -86,7 +87,7 @@ type = internal/bspwm
 
 label-focused = %index%
 label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.primary}
+label-focused-underline= ${colors.underline}
 label-focused-padding = 2
 
 label-occupied = %index%
@@ -150,8 +151,8 @@ screenchange-reload = true
 ;compositing-border = over
 ;pseudo-transparency = false
 
-[global/wm]
-margin-top = 5
-margin-bottom = 5
+;[global/wm]
+;margin-top = 5
+;margin-bottom = 5
 
 ; vim:ft=dosini
