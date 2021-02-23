@@ -3,4 +3,4 @@
 chosen=`cut -d ';' -f1 ~/.local/share/emoji | dmenu -i -l 30 | sed "s/ .*//"`
 
 echo $chosen | tr -d '\n' | xclip -selection clipboard
-notify-send "'$chosen'"
+notify-send "'$chosen' copied to clipboard"
