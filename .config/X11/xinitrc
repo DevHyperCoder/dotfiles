@@ -3,5 +3,8 @@
 nitrogen --restore &
 dunst &
 picom &
+sxhkd &
 
-exec bspwm
+setxkbmap -option caps:escape
+
+exec xmonad
