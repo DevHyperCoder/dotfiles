@@ -1,5 +1,3 @@
-echo "Asdfasdf"
-
 # Enable colors and change prompt:
 autoload -U colors && colors	# Load colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
@@ -43,3 +41,11 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $HOME/.local/share/zsh/plugins/zsh-abbr/zsh-abbr.zsh
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#BD93F9'
+
+# fnm
+export PATH=/home/devhypercoder/.local/share/:$PATH
+eval "`fnm env`"
+
+export FNM_DIR="/home/devhypercoder/.local/share/fnm-node/"
+
+fnm use 14.15.5
