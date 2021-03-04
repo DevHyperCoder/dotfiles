@@ -7,4 +7,6 @@ sxhkd &
 
 setxkbmap -option caps:escape
 
-exec dwm
+while true; do
+    dwm >/dev/null 2>&1
+done
