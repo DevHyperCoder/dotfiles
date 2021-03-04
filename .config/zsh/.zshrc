@@ -21,6 +21,10 @@ _comp_options+=(globdots)		# Include hidden files.
 bindkey -v
 export KEYTIMEOUT=1
 
+# Fixing home and end
+bindkey  "^[[H"   beginning-of-line
+bindkey  "^[[4~"   end-of-line
+
 # Change cursor shape for different vi modes.
 function zle-keymap-select () {
     case $KEYMAP in
