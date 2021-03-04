@@ -7,4 +7,4 @@ sxhkd &
 
 setxkbmap -option caps:escape
 
-exec xmonad
+exec dwm
