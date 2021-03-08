@@ -2,6 +2,6 @@
 
 while true
     do
-        xsetroot -name "🔊 $(audio-control vol) $(date +"%H:%m %d/%m %a")"
+        xsetroot -name "🔊 $(audio-control vol) $(date +"%H:%M %d/%m %a")"
         sleep 1m
 done
