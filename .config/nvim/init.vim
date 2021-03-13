@@ -50,6 +50,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 
 Plug 'lervag/vimtex'
 
+Plug 'tpope/vim-fugitive'
 
 Plug 'pangloss/vim-javascript'
 Plug 'peitalin/vim-jsx-typescript'
