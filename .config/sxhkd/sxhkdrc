@@ -10,6 +10,15 @@ super + Return
 super + shift + Return
 	dmenu_run
 
+super + shift + p
+    passmenu
+
+super + g
+    dmenu-git-emoji
+
+super + e
+    dmenu-unicode
+
 super + w
     surf
 
